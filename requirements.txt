@@ -30,7 +30,7 @@ sentence-transformers>=2.2.2
 # ===== Web & App Development =====
 flask>=2.3.0
 streamlit>=1.27.0
-fastapi>=0.103.0
+fastapi>=0.0.14
 uvicorn[standard]>=0.23.0
 
 # ===== Agentic AI & Automation =====
