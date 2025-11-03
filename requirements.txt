@@ -1,0 +1,51 @@
+# ===== Core Python Packages =====
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+scikit-learn>=1.7.2
+
+# ===== Hugging Face & Transformers =====
+transformers>=4.34.0
+datasets>=2.15.0
+accelerate>=0.23.0
+evaluate>=0.4.0
+
+# ===== Generative AI APIs =====
+openai>=1.3.0
+python-dotenv>=1.1.1  # for managing API keys securely
+
+# ===== Image Generation =====
+diffusers>=0.21.0
+safetensors>=0.4.0
+Pillow>=10.0.0
+
+# ===== RAG, LangChain & Vector DBs =====
+langchain>=0.0.330
+llama-index>=0.9.15
+chromadb>=0.4.13
+pinecone-client>=2.2.4
+pinecone==7.3.0
+sentence-transformers>=2.2.2
+
+# ===== Web & App Development =====
+flask>=2.3.0
+streamlit>=1.27.0
+fastapi>=0.103.0
+uvicorn[standard]>=0.23.0
+
+# ===== Agentic AI & Automation =====
+autogen>=0.2.0
+crewai>=0.1.10
+langgraph>=0.0.20
+
+# ===== Monitoring & Logging =====
+prometheus-client>=0.17.1
+
+# ===== Utility Packages =====
+requests>=2.31.0
+python-multipart>=0.0.6  # for FastAPI file uploads
+PyPDF2~=3.0.1
+black==25.9.0
+isort==7.0.0
+python-dotenv>=1.0.0
+python-jose==3.3.0
