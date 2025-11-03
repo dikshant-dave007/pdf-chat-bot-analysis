@@ -116,7 +116,7 @@ except Exception as e:
     pinecone_initialized = False
 
 # Pinecone index configuration - USING text-embedding-ada-002
-INDEX_NAME = "pdf-vector-index"
+INDEX_NAME = os.getenv("PINECONE_INDEX_NAME") or "pdf-vector-index"
 EMBEDDING_DIMENSION = 3072  # text-embedding-ada-002 dimension
 
 # FIXED: Pinecone index initialization - only create if doesn't exist
