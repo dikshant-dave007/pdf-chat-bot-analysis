@@ -1,12 +1,2 @@
 {
-  "874287b2-da6f-4a75-a3d4-93b23cb0e81d": {
-    "filename": "NIPS-2017-attention-is-all-you-need-Paper.pdf",
-    "upload_time": "2025-10-31 17:57:15",
-    "document_count": 36,
-    "file_path": "D:\\PDF-QA-Analysis\\uploads\\874287b2-da6f-4a75-a3d4-93b23cb0e81d.pdf",
-    "file_hash": "7a6bb1fcdceec29ff330d3af68fbe5d8",
-    "file_size": 569417,
-    "model_used": "azure_openai",
-    "has_vectors": false
-  }
 }
